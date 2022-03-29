@@ -1,0 +1,195 @@
+@media(max-width:2560px){
+    .flag1{
+        top: -51rem;
+    }
+
+    .flag2{
+        top: -63rem;
+    }
+    
+}
+
+@media(max-width:1440px){
+    .flag1{
+        top: -42.5rem;
+    }
+
+
+    .flag2{
+        top: -44vh;
+    }
+    
+}
+
+@media(max-width:1024px){
+    .flag1{
+        top: -39.2rem;
+    }
+   
+
+    .flag2{
+        top: -28rem;
+    }
+    
+}
+
+@media(max-width:954px){
+    
+    .flag1{
+        top: -16.8rem;
+    }
+
+    .flag2{
+        top: -28rem;
+    }
+
+    .projects{
+        flex-direction: column;
+        padding: 1rem;
+        height: auto;
+    }
+
+    .project{
+        background-color: gold;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        border: 2px solid orangered;
+        margin:  2rem;
+        padding: 2rem;
+    }
+
+    .project-description{
+        display: block;
+        text-align: left;
+        margin: 0.5rem;
+        line-height: 2rem;
+    }
+}
+
+
+@media(max-width:770px){
+
+    .flag2{
+        top: -18rem;
+    }
+}
+
+@media(max-width:700px){
+
+    .welcome-section {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 100%;
+        background-color: var(--main-cinza);
+        color: white;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    h1{
+        font-size: 6rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    .nav{
+        margin-right: 0;
+    }
+
+    .nav ul{
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .nav-list > li > a{
+        padding: 1rem 2rem;
+    }
+
+    .headerBar1{
+        height: 17rem;
+    }
+
+    .flag1{
+        top: -21.6rem;
+    }
+
+    .flag2{
+        top: -31rem;
+    }
+}
+
+@media(max-width:470px){
+
+    .headerBar1{
+        height: 14.5rem;
+    }
+
+    .flag1{
+        top: -19.2rem;
+    }
+
+    .flag2{
+        top: -13rem;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact{
+        height: 69vh;
+    }
+
+    .nav-list > li > a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 500 ;
+        padding: 0 1rem;
+    }
+
+    h1{
+        margin: 4rem 0;
+        font-size: 4rem ;
+    }
+
+    .project{
+        margin: .5rem;
+    }
+
+    .contact h2{
+        width: 90%;
+        font-size: 2.5rem ;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-wrap: wrap;
+      font-size: 1rem;
+      color: gold;
+    }
+  
+    .contact-links a{
+        padding: 1rem;
+    }
+
+    .footerBottom{
+        display: block;
+        text-align: center;
+    }
+
+    .footerBottom p{
+        margin: 3rem 1rem;
+    }
+
+}

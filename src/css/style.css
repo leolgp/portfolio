@@ -1,0 +1,276 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Popins', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 10rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: italic;
+    color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+/* -----------HEADER-------------- */
+.flag0{
+    position: relative;
+}
+
+.header{
+    max-height: 140px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem ;
+    background-color: orange;
+}
+
+.icons img{
+    max-width: 5rem;
+}
+
+.icons {
+    display: flex;
+    width: 18rem;
+    padding: 1rem;
+}
+
+.nav{
+    margin-right: 15%;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.header a{
+    transition: 0.3s ease-in-out;
+    border-radius: 5rem;
+}
+
+.header a:hover {
+    color: orange;
+  background-color: orangered;
+}
+
+.nav-list > li > a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 500 ;
+    padding: 0 2rem;
+}
+
+.headerBar1{
+background-color: var(--main-vermelho);
+height: 11.5rem;
+}
+
+.headerBar2{
+    background-color: black;
+    height: 0.5rem;
+}
+
+/* -----------WELCOME-------------- */
+
+
+.welcome-section {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+    background-color: var(--main-cinza);
+    color: white;
+}
+
+.welcome-section .chamada{
+   text-align: center;
+}
+
+.welcomeBar{
+    display: block;
+    background-color: orangered;
+    height: .3rem;
+}
+
+/* flag2 was created because the fixed nav-bar covered the project-title */
+.flag1{
+    position: relative;
+    background-color: var(--main-cinza);
+
+}
+
+/* -----------PROJECTS-------------- */
+
+.title-project {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(90deg, gold, orange,  orangered);
+}
+    
+.title-project h2{
+    color: rgb(73, 68, 68);
+    margin: 0 3rem 0;
+    padding: 0.5rem;
+}
+
+.projects{
+    
+    display: flex;
+    padding: 2rem;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    background-color: gold;
+    display: flex;
+    width: 30%;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid orangered;
+    margin: 1rem 1rem;
+}
+
+.project .project-tile{
+    width: 90%;
+    padding: 1rem ;
+}
+
+.projects .project-tile img{
+    border: .5rem solid orange;
+}
+
+.project .project-description{
+    text-align: left;
+    line-height: 2rem;
+}
+
+.projects h2{
+    width: fit-content;
+    padding: .5rem;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(82, 77, 77);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+.projects p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(29, 25, 25);
+    margin: .5rem 1rem;
+}
+
+.projects a{
+   transition: .3s ease-in-out;
+}
+
+.projects a:hover h2{
+    color: greenyellow;
+  background-color: orangered;
+}
+
+/* -----------CONTACT-------------- */
+
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(73, 68, 68);
+    color: white;
+}
+
+.flag2{
+    position: relative;
+    background-color: var(--main-cinza);
+}
+
+.contact-section-header h2{
+    color: white;
+    font-size: 6rem;
+    margin: 4rem;
+}
+
+.footerBar1{
+    display: block;
+    background-color: orangered;
+    height: .5rem;
+}
+
+.footerBar2{
+    display: block;
+    background-color: black;
+    height: .5rem;
+}
+
+
+.contact-details {
+    font-size: 2.4rem;
+    color: yellow;
+    transition:  0.3s ease-out;
+  }
+
+  .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+    font-size: 2.4rem;
+    color: gold;
+  }
+
+  .contact-links a{
+      padding: 3rem;
+  }
+
+  .footerBarLinks1{
+    background-color: orange;
+    height: .2rem;    
+  }
+
+  .footerBarLinks2{
+    background-color: orangered;
+    height: .4rem;    
+    width: 100%;
+  }
+
+  .footerBottom {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+    margin: 4rem 10rem;  
+    color: gold;
+  }
+
+  .footerBottom p{
+    font-size: 1.5rem;
+  }

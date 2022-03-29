@@ -1,0 +1,27 @@
+:root{
+   --main-cinza:rgb(73, 68, 68);
+   --main-vermelho: rgb(245, 5, 5);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+img{
+    width: 100%;
+}
